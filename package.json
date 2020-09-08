@@ -1,0 +1,21 @@
+{
+  "name": "hello-dolphin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akira2542/hello-dolphin",
+  "author": "panus2544 <panus.khjrs@mail.kmutt.ac.th>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "babel-preset-react-app": "^9.1.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "parcel -p 3000 public/index.html",
+    "build": "parcel build public/index.html -d build --public-url ./"
+  }
+}
